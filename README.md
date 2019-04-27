@@ -32,9 +32,19 @@ java - jar <jarfileName.jar> <path_to_a_directory>
 * User needs to provide a valid directory with valid text files.
 
 ## Walkthrough to the service
-* after running the command
- ```
- java - jar <jarfileName.jar> <path_to_a_directory>
- ```
- user will get screen to either provide a text to search or use ```:quit```  to quit the system.
-* enter any text. for ex. : to be or not to be
+* after running the command  ``` java - jar <jarfileName.jar> <path_to_a_directory> ``` user will get screen to either provide a text to search or use ```:quit```  to quit the system.
+* if provide empty string or whitespaces the system will give feedback to provide a valid group of words such as ```Please provide a word to search```.
+* enter any text. for ex. ```: to be or not to be ```.
+* the above texts will get searched in all the files and if there is a match then it will return the file name with the matching precentage.
+
+## Note:
+Each word in the sentence provided by the user will get seached separately. Search function is not searching exact whole sentence but the words from the sentence.
+Text search is case insensitive.
+eg ```to``` is same as ```TO```
+
+
+##Running in Eclipse
+* the main method to run is ```SearchMain.java```
+* from the eclipse, this service can be direcly run.
+* simply run the java class by giving the path_to_a_directory
+* with this service, a sample testDirectory has been given with 3 text files
