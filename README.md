@@ -43,7 +43,7 @@ java - jar <jarfileName.jar> <path_to_a_directory>
 * the special characters will not be searched. Numbers will get searched.
 
 
-##Running in Eclipse
+## Running in Eclipse
 * the main method to run is ```SearchMain.java```
 * from the eclipse, this service can be direcly run.
 * simply run the java class by giving the path_to_a_directory
