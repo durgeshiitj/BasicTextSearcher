@@ -39,7 +39,7 @@ java - jar <jarfileName.jar> <path_to_a_directory>
 
 ## Note:
 * Each word in the sentence provided by the user will get seached separately. Search function is not searching exact whole sentence but the words from the sentence.
-* Text search is case insensitive. eg ```to``` is same as ```TO```.
+* Text search is case insensitive. eg ```to```  is same as  ```TO```.
 * the special characters will not be searched. Numbers will get searched.
 
 
